@@ -5,14 +5,13 @@
 
 
 def print_hi(name):
-    print("Hello!")
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
+    print("New text")
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('Info from master')
+    print_hi('Info from branch dev1')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
